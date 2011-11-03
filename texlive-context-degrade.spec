@@ -1,3 +1,9 @@
+# revision 23167
+# category ConTeXt
+# catalog-ctan /macros/context/contrib/context-degrade
+# catalog-date 2008-08-18 23:54:09 +0200
+# catalog-license gpl
+# catalog-version undef
 Name:		texlive-context-degrade
 Version:	20080818
 Release:	1
@@ -43,6 +49,7 @@ TeXLive context-degrade package.
 %{_texmfdistdir}/tex/context/third/degrade/t-degrade.tex
 %doc %{_texmfdistdir}/doc/context/third/degrade/degrade-demo.pdf
 %doc %{_texmfdistdir}/doc/context/third/degrade/degrade-doc.pdf
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -53,3 +60,5 @@ TeXLive context-degrade package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
