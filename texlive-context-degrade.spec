@@ -45,3 +45,17 @@ TeXLive context-degrade package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 20080818-2
++ Revision: 750492
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20080818-1
++ Revision: 718127
+- texlive-context-degrade
+- texlive-context-degrade
+- texlive-context-degrade
+- texlive-context-degrade
+
