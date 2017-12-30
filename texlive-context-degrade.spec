@@ -5,8 +5,8 @@
 # catalog-license gpl
 # catalog-version undef
 Name:		texlive-context-degrade
-Version:	20080818
-Release:	10
+Version:	20170414
+Release:	1
 Summary:	Degrading JPEG images in ConTeXt
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/context/contrib/context-degrade
