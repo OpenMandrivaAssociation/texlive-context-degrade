@@ -3,7 +3,7 @@ Version:	47085
 Release:	2
 Summary:	Degrading JPEG images in ConTeXt
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/context/contrib/context-degrade
+URL:		https://www.ctan.org/tex-archive/macros/context/contrib/context-degrade
 License:	GPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/context-degrade.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/context-degrade.doc.r%{version}.tar.xz
